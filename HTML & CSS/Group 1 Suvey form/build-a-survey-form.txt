@@ -1,0 +1,61 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trip group Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="title-form">
+    <h1 id="title">Trip group Survey Form</h1>
+  </div>
+  <p id="description">Please provide the following information. Thank you for taking time to answer this questions.</p>
+  <form id="survey-form">
+    <div class="form-group">
+      <div class="name">
+        <label id="name-label" for="name-label">Name</label>
+        <input id="name" type="text" name="name" value="Name Surname" placeholder="name"required/>
+      </div>
+      <div class="email">
+        <label id="email-label" for="email-label">Email</label>
+        <input id="email" type="email" name="email" placeholder="example@example.com" required/>
+      </div>
+      <div class="number">
+        <label id="number-label" for="number-label">Age</label>
+        <input id="number" type="number" placeholder="Age" min="16" max="120" required/>
+      </div>
+    </div>
+    <p>Please select one option:</p>
+    <select id="dropdown">
+      <option>Mountain</option>
+      <option>Beach</option>
+    </select>
+    <fieldset>
+      <label for="option"><input id="sunrise" type="radio" name="option" class="inline"  value="dropdown"/> Sunrise</label>
+      <label for="option"><input id="sunset" type="radio" name="option" class="inline"  value="dropdown"/> Sunset</label>
+    </fieldset>
+    <fieldset> 
+      <p class="locations">Prefered locations: </p>
+      <label for="location"><input id="location" type="checkbox" name="location" value="name"/>Ibiza</label>
+      <label for="location"><input id="location" type="checkbox" name="location" value="name"/>Bora Bora</label>
+      <label for="location"><input id="location" type="checkbox" name="location" value="name"/>Bahamas</label>
+      <label for="location"><input id="location" type="checkbox" name="location" value="name"/>Alps</label>
+      <label for="location"><input id="location" type="checkbox" name="location" value="name"/>Pirineos</label>
+      <label for="location"><input id="location" type="checkbox" name="location" value="name"/>Dolomits</label>
+    </fieldset>
+    <label for="extra-info">Provide aditional information about you: <textarea id="extra-info" type="textarea" name="extra-info" rows="3" cols="30" ></textarea></label>
+    <button id="submit" value="submit">Submit</button>
+  </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
